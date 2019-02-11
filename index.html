@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Метро: Исход</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<style type="text/css"> /*Я это взял из интернета*/
+		.animate1 {
+		    filter: alpha (Opacity=35);
+		    opacity: 0.35;
+		    -moz-transition: all 0.5s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+		    -webkit-transition: all 0.5s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+		    -o-transition: all 0.5s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+		    transition: all 0.5s ease-in-out; /* эффект перехода для других браузеров */
+		}
+		.animate1:hover {
+		    filter: alpha (Opacity=100);
+		    opacity: 1;
+		}
+		.hohva:hover{ 
+			transform: scale(1.05);
+			transition: 0.8s;
+		}
+	</style>
+</head>
+<body style="background: black">
+	<div class="col-12 sticky-top qw100 pl-0 pr-0 mb-1" style="background: black;">
+		<div class="col-12 row text-white qw100 pl-0 pr-0">
+			<div class="col-2 mt-4 ml-4 pl-0 pr-0">
+				<a href="https://www.metrothegame.com/ru/">
+					<img src="logo.png" class="col-12 w-75">
+				</a>
+			</div>
+			<div class="row col-6 pl-0 pr-0 mt-4">
+				<div class="mr-5 mt-2">
+					<small class="text-uppercase"><a href="https://www.metrothegame.com/ru/novosti/" class="text-decoration-none text-white">новости</a></small>
+				</div>
+				<div class="mr-5 mt-2">
+					<small class="text-uppercase"><a href="https://www.metrothegame.com/ru/predystoriya/" class="text-decoration-none text-white">предыстория</a></small>
+				</div>
+				<div class="mr-5 mt-2">
+					<small class="text-uppercase"><a href="https://www.metrothegame.com/ru/igra/" class="text-decoration-none text-white">игра</a></small>
+				</div>
+				<div class="mr-5 mt-2">
+					<small class="text-uppercase"><a href="https://www.metrothegame.com/ru/knigi/" class="text-decoration-none text-white">книги</a></small>
+				</div>
+				<div class="mr-5 mt-2">
+					<small class="text-uppercase"><a href="https://www.metrothegame.com/ru/media/" class="text-decoration-none text-white">медиа</a></small>
+				</div>
+				<div class="mr-5 mt-2">
+					<small class="text-uppercase font-weight-bold"><a href="https://www.metrothegame.com/ru/artyom-edition/" class="text-decoration-none text-white">artyom edition</a></small>
+				</div>
+			</div>
+			<div class="row col-4 mt-1">
+				<a href="https://www.metrothegame.com/ru/updates/" class="mt-4 ml-auto">
+					<button class="text-uppercase border-warning text-white mb-3 pl-4 pr-4 " style="background: black;"><small>новости о метро</small></button>
+				</a>
+				
+				<a href="" class="mt-4">
+					<button class="text-uppercase border-warning text-white mb-3 pl-4 pr-4 ml-3" style="background: black;"><small>предзаказ</small></button>
+				</a>
+				
+			</div>
+		</div>
+		<hr class="bg-dark mb-0">
+	</div>
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: -80px;">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+		<div class="carousel-inner">
+		    <div class="carousel-item active">
+		    	<img src="metro2035.png" class="d-block w-100" alt="..." style="height: 700px;">
+		    	<div class="carousel-caption d-none d-md-block">
+					<h2>Продолжение легендарной истории</h2>
+					<p>Действия игры идут после событий романа Метро 2035 Дмитрия Глуховского</p>
+					<a href="https://www.metrothegame.com/ru/knigi/">
+						<button class="bg-warning border-0 text-white text-uppercase p-1 pl-3 pr-3">книги</button>
+					</a>
+					
+				</div>
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="artyom.png" class="d-block" alt="..." style="height: 700px;">
+		    	<div class="carousel-caption d-none d-md-block">
+					<h2>Кошмар Артёма</h2>
+					<p>Пора оставить руины Москвы и отправиться в путешествие за её пределы</p>
+					<a href="https://www.youtube.com/watch?v=9Ta6B2QkpfY"><button type="button" class="btn-warning border-0 text-white text-uppercase p-1 pl-3 pr-3" data-toggle="modal" data-target="#exampleModalCenter">
+					  смотри
+					</button></a>
+					
+				</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="avrora.png" class="d-block w-100" alt="..." style="height: 700px;">
+		      <div class="carousel-caption d-none d-md-block">
+				<h2>Анонс сюжетного трейлера</h2>
+				<p>Отправьтесь в путешествие с Артемом и остальными спартанцами</p>
+				<a href="https://www.youtube.com/watch?v=uyl9_iIEXvs"><button class="bg-warning border-0 text-white text-uppercase p-1 pl-3 pr-3">смотри</button></a>
+				
+			</div>
+		    </div>
+		</div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<div class="col-12 text-white row pl-0 pr-0 ml-0 mt-4 mb-2" style="height: 300px;">
+		<div class="col-6 pl-0 pr-0 hohva" style="background-image: url(city.png); background-size:100% 300px;">
+			<div style="background: rgb(0, 0, 0, 0.8)" class="border border-secondary border-left-0 pl-4 pt-2 col-8">
+				<p>В 2013 году на мир обрушился ядерный огонь, почти полностью уничтоживший человечество, но горстка выживших спряталсь в метро, борясь за выживание. </p>
+			</div>
+		</div>
+
+		<div class="col-6 pl-0 pr-0 hohva" style="background-image: url(uni.jpg); background-size: 100% 300px;">
+			<div style="background: rgb(0, 0, 0, 0.8); margin-top: 200px;" class="border border-secondary border-right-0 ml-auto col-8 pl-4 pt-2">
+				<p>Метро позволяет нам погрузится в незабываемое, атмосферное приключение, хоть и в книге, хоть и на мониторе ваших компьютеров.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="mt-4 bt-4">
+		<div class="row col-12 ml-4">
+			<div class="row">
+				<div class="pl-0 pr-0 mt-0 animate1">
+					<img src="2033.jpg">
+				</div>
+
+				<div class="pl-0 pr-0 mt-2 animate1">
+					<img src="2034.jpg" style="margin-left: -10px;">
+				</div>
+
+				<div class="pl-0 pr-0 mt-4 animate1">
+					<img src="2035.jpg" style="margin-left: -10px;">
+				</div>
+			</div>
+
+			<div class="col-4 ml-5 text-white animate1">
+				<img src="universe.jpg" class="w-100">
+				<p class="mt-4">«Вселенная Метро 2033» — литературный межавторский международный проект, запущенный Дмитрием Глуховским в конце 2009. Книги серии описывают приключения выживших в мире романов «Метро 2033», «Метро 2034» и «Метро 2035». Во «Вселенной Метро 2033» описывается как Москва, так и другие регионы мира, причём значительная часть событий происходит в метрополитенах.</p>
+			</div>	
+		</div>
+	</div>
+
+	<div class="col-11 text-white container mt-3">
+		<div class="row">
+			<div class="col-7">
+				<h2>Метро: Исход | Игровой процесс</h2>
+				<p>
+					Metro Exodus является шутером от первого лица с элементами survival horror и стелс-экшен. Действия проходят на постапокалиптических пустошах бывшей Российской Федерации, где игрок должен справляться с новыми опасностями мира и участвовать в борьбе против мутировавших существ, а также враждебно настроенных людей. Также присутствует динамическая система погоды, цикл дня и ночи и смена сезонов времён года по мере продвижения истории. 
+				</p>
+				<p>
+					Действие Metro Exodus происходит в 2035 году, на постапокалиптической Земле, которая была разрушена в результате ядерной войны более 20 лет назад, в 2013 году. Главный герой — Артём, с группой выживших рейнджеров ордена «Спарты» отправляется в путешествие из метрополитена Москвы на модифицированном паровозе «Аврора» и едет далеко на восток, искать новое место для жизни в постапокалиптической России.
+				</p>
+			</div>
+
+			<div class="col-5 pl-0 pr-0 mt-1">
+				<img src="poezd.jpg" class="w-100">
+				<div class="col-12 row pl-0 pr-0 ml-0">
+					<img src="gif1.gif" class="w-50">
+					<img src="summer.jpg" class="w-50">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-11 container text-white pt-5 mt-4" style="background-image: url(tunell.jpg); background-size: 100%; height: 500px;">
+		<div class="col-5 container mt-4 pt-2 pb-2 rounded" style="background: rgb(0, 0, 0, 0.8)">
+			<h1 class="text-warning text-center"><big>15.02.19</big></h1>
+			<h4 class="text-center">Дата выхода Metro: Exodus</h4>
+		</div>
+	</div>
+
+	<hr class="bg-warning mt-5" style="height: 2px;">
+
+	<div class="col-11 container text-warning mt-5 pl-0 pr-0">
+		<div class="container text-center pl-0 pr-0">
+			<h2>ПРИСОЕДИНИТЬСЯ К СООБЩЕСТВУ:</h2>
+			<div class="col-7 pl-0 pr-0 container mt-3">
+				<a href="https://twitter.com/metrovideogame">
+					<img src="11.png" class="col-2">
+				</a>
+
+				<a href="https://www.youtube.com/user/metrovideogame">
+					<img src="12.png" class="col-2">
+				</a>
+
+				<a href="https://www.instagram.com/metrovideogame/">
+					<img src="13.png" class="col-2">
+				</a>
+
+				<a href="https://www.facebook.com/metrovideogame">
+					<img src="14.png" class="col-2">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="bg-dark mt-5">
+
+	<div class="">
+		<div class="row ml-5 text-warning">
+			<p><u>Условия использования</u><span class="text-white"> | </span><u>Terms of Service</u></p>
+		</div>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
